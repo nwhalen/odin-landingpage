@@ -122,9 +122,9 @@ button {
 .bottom-container {
     display: flex;
     background: #1F2937;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 16px;
+    gap: 48px;
     max-width: 800px;
     margin: 0 auto;
     padding: 24px;
@@ -140,5 +140,10 @@ button {
 .bottom-button {
     display: flex;
     align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
 }
 
